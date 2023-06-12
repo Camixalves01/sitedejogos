@@ -1,0 +1,90 @@
+/*SUMÁRIO*/
+/*body*/
+/*titulo*/
+/*button*/
+/*acerto*/
+/*palavrascerta*/
+
+/*--------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+/*---------------------------------------*/
+
+
+/*body*/
+body {
+    /* background: rgb(247,247,246);
+    background: radial-gradient(circle, rgba(247,247,246,1) 0%, rgba(70, 59, 224, 0.785) 100%); */
+    background: url('https://images5.alphacoders.com/445/445906.jpg');
+}
+.logo {
+    height: 65px;
+    width: auto;
+}
+/* cabeçalho */
+#navbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.541);
+    color: black;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 10px;
+    color: rgb(0, 0, 0);
+}
+
+/*titulo*/
+#titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+/*button*/
+button {
+    background-color: rgba(224, 18, 18, 0.808);
+    border: none;
+    padding: 17px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-size: x-large;
+}
+
+/*acerto*/
+#acerto{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*palavrascerta*/
+#palavrascerta{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}

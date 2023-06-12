@@ -1,0 +1,43 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background: url('https://tracklist.com.br/wp-content/uploads/2022/10/super-mario-bros.png');
+}
+
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./bgmario.jpg");
+}
+.logo {
+    height: 65px;
+    width: auto;
+}
+/* cabeçalho */
+#navbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.541);
+    color: black;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 10px;
+    color: rgb(0, 0, 0);
+}
